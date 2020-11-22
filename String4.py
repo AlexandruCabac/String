@@ -1,0 +1,6 @@
+a=str(input())
+b=str(input())
+c=str(input())
+d=str(input())
+z=int(len(d)/2)
+print(a,b,c,d,f"{a[:2]}{b[0]}{c[:3]}{d[:z]}",sep='\n')
